@@ -13,9 +13,7 @@ from textaugment import EDA  #textaugment library for synonym replacement
 import nlpaug.augmenter.word as naw  # NLPAug library for word augmenter by contextual word embedding
 
 nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-dataset = dataset["train"].train_test_split(test_size=0.3, seed=42)
+run()
 aux_dataset = dataset["test"].train_test_split(test_size=0.33, seed=42)
 dataset['validation'] = aux_dataset['test']
 dataset['test'] = aux_dataset['train']
