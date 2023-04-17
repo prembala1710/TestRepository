@@ -85,7 +85,7 @@ jobs:
           #fork-message: '(repo) has been forked by (me) under (ref)'
           #gollum-message: 'Changes have been made in the Wiki Pages of (repo) by (me)'
           #issues-message: 'Oops :surprise:\n A (event) (issue) is (action) by (me) at (repo) under (ref)'
-          #issue-comment-message: 'Hey :awe:\n (event) has been (action) by (me) at (issue)'
+          issue-comment-message: 'Hey :awe:\n (event) has been (action) by (me) at (issue)'
           #label-message: 'Seems Like New Issues required New Labels :curious:\n A (event) (label) has been (action) by (me)'
           #milestone-message: 'Goals need to be Changed as the Project Progresses :milestone:\n A (event) (milestone) is (action)'
           #page-build-message: 'A (event) is made by (me) for (repo)'
