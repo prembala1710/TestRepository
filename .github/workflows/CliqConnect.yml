@@ -107,5 +107,5 @@ jobs:
           #the message sent when the user doesn't want to enter all the 30 messages and just handle the same message to different events.
           #this message is sent only when the custom message is not provided by the user.
           #ie. if a push occurs the push-message will be sent. In case it is not provided. The default-message will be sent. 
-          #set-message-if-none: true
+          set-message-if-none: false
           #false makes CliqInformer not send the default messages if custom message is not set
